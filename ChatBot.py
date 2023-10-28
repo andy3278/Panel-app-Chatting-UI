@@ -30,16 +30,3 @@ chat_interface.send(
     "This is a blenderbot-400M-distill powered ChatBot with Panel 1.3 ChatInterface!", user="System", respond=False
 )
 chat_interface.servable()
-
-
-
-# def query(payload):
-# 	response = requests.post(API_URL, headers=headers, json=payload)
-# 	return response.json()
-	
-# output = query({
-# 	"inputs": {
-# 		"text": "what is your name?"
-# 	},
-# })
-# print(output)
